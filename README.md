@@ -11,7 +11,7 @@
 <p align="center">
   <a href="LICENSE"><img src="https://img.shields.io/badge/licencia-CC0_1.0-E8833A?style=flat-square&labelColor=1D1D1D" alt="Licencia CC0 1.0"></a>
   <a href="https://github.com/Dathinel/rodaje-catalogo/releases/latest"><img src="https://img.shields.io/github/v/release/Dathinel/rodaje-catalogo?style=flat-square&labelColor=1D1D1D&color=E8833A&label=%C3%ADndice" alt="Última release del índice"></a>
-  <img src="https://img.shields.io/badge/entradas-83-E8833A?style=flat-square&labelColor=1D1D1D" alt="83 entradas">
+  <img src="https://img.shields.io/badge/entradas-85-E8833A?style=flat-square&labelColor=1D1D1D" alt="85 entradas">
   <img src="https://img.shields.io/badge/firma-ECDSA_P--256-E8833A?style=flat-square&labelColor=1D1D1D" alt="Firma ECDSA P-256">
   <a href="https://github.com/Dathinel/rodaje"><img src="https://img.shields.io/badge/para-Rodaje-E8833A?style=flat-square&labelColor=1D1D1D" alt="Para Rodaje"></a>
 </p>
@@ -20,9 +20,9 @@ No tiene código: solo [releases](https://github.com/Dathinel/rodaje-catalogo/re
 
 Rodaje lee la última release (`releases/latest/download/indice.json`), comprueba la firma con la clave pública que lleva dentro y solo entonces baja cada archivo, que también se verifica por hash. Un índice sin firma válida o más viejo que el último visto se rechaza.
 
-## Índice actual: v8
+## Índice v10
 
-[v8](https://github.com/Dathinel/rodaje-catalogo/releases/tag/v8) tiene **83 entradas**, una por versión de cada paquete y modelo: 16 complementos (9 de contenido y 7 módulos), 51 modelos distintos y las 3 aplicaciones. Las versiones anteriores siguen en el índice.
+[v10](https://github.com/Dathinel/rodaje-catalogo/releases/tag/v10) tiene **85 entradas**, una por versión de cada paquete y modelo: 16 complementos (9 de contenido y 7 módulos), 51 modelos distintos y 4 aplicaciones. Las versiones anteriores siguen en el índice.
 
 | Complemento | Tipo | Última versión | Repositorio |
 |---|---|---|---|
@@ -41,9 +41,9 @@ Rodaje lee la última release (`releases/latest/download/indice.json`), comprueb
 | Texto a voz | Módulo de IA | 1.0.0 | [modulo-voz](https://github.com/Dathinel/modulo-voz) |
 | Ruido y detección de voz | Módulo de IA | 1.0.0 | [modulo-audio-ia](https://github.com/Dathinel/modulo-audio-ia) |
 | Visión (fondo, rostros, reencuadre) | Módulo de IA | 1.1.0 | [modulo-vision](https://github.com/Dathinel/modulo-vision) |
-| RAW (CinemaDNG) | Módulo | 1.0.0 | [modulo-raw](https://github.com/Dathinel/modulo-raw) |
+| RAW (CinemaDNG) | Módulo | 1.1.0 | [modulo-raw](https://github.com/Dathinel/modulo-raw) |
 
-Desde la v8 también lista las aplicaciones (tipo `app`): [Subtitular](https://github.com/Dathinel/subtitular), [Rastrear](https://github.com/Dathinel/rastrear) y el propio [Lanzador](https://github.com/Dathinel/lanzador), todas en 1.0.0.
+Desde la v8 también lista las aplicaciones (tipo `app`): [Subtitular](https://github.com/Dathinel/subtitular), [Rastrear](https://github.com/Dathinel/rastrear) y el propio [Lanzador](https://github.com/Dathinel/lanzador), todas en 1.0.0. La v10 añade [BeamLine](https://github.com/Dathinel/beamline) 0.0.1.
 
 Cómo se instalan desde la app: [guía de complementos](https://github.com/Dathinel/rodaje/blob/main/docs/guia/complementos.md).
 
